@@ -28,6 +28,9 @@ Geraldine
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+html{
+    scroll-behavior: smooth;
+}
 .maincontainer{
     max-width: 1440px;
     margin: auto;

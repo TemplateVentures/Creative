@@ -39,6 +39,10 @@
     color: #FA9484;
     cursor: pointer;
 }
+.navlink a{
+    text-decoration: none;
+    color: inherit;
+}
 /* navlink end*/
 
 /* .singin-singup */
@@ -100,15 +104,6 @@
     transition: 0.3s;
 }
 
-/* to show navlink overlay */
-.nav-sm-cont-show{
-    right: 0;
-    opacity: 1;
-    visibility: visible;
-    transition: 0.4s;
-}
-
-
 
 .nav-sm-screen{
     position: fixed;
@@ -126,13 +121,7 @@
     /* transition: 0.1s; */
 }
 
-/* to show navlink container */
-.nav-sm-screen-show{
-    right: 0;
-    opacity: 1;
-    visibility: visible;
-    transition: 0.3s;
-}
+
 
 
 .nav-sm-screen .singin-singup{
@@ -173,6 +162,20 @@
     }
     .menu-bar{
         display: flex !important;
+    }
+    /* to show navlink container */
+    .nav-sm-screen-show{
+        right: 0;
+        opacity: 1;
+        visibility: visible;
+        transition: 0.3s;
+    }
+    /* to show navlink overlay */
+    .nav-sm-cont-show{
+        right: 0;
+        opacity: 1;
+        visibility: visible;
+        transition: 0.4s;
     }
 }
 
