@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+@import "../@media/@media_main_hero.css";
+@import "../@media/@media_navigation.css";
+@import "../@media/@media_product.css";
+@import "../@media/@media_costumer.css";
+@import "../@media/@media_pricing.css";
+@import "../@media/@media_resources.css";
+@import "../@media/@media_footer.css";
+
+
+/* color pallete 
+Limed Spruce
+#374951
+
+Dawn Pink
+#F1E7E5
+
+Roman
+#DC695B
+
+Geraldine
+#FA9484
+*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.maincontainer{
+    max-width: 1440px;
+    margin: auto;
+    position: relative;
+}
+.main-hero-cont h1,
+    .product-card-row h1,
+    .product-h1 h1,
+    .costumer-section-cont h1,
+    .second-costumer-sec h1,
+    .contact-sp-details h1,
+    .marketing-cont h1,
+    footer{
+       color: #374951 !important;
+    }
+    .main-hero-cont label,
+    .product-card-row label,
+    .product-h1 label,
+    .costumer-section-cont label,
+    .second-costumer-sec label,
+    .contact-sp-details label,
+    .marketing-cont label,
+    footer{
+        color: #374951 !important;
+    }
+
+
+@media (max-width:1440px){
+    .marketing-cards{
+        width: 380px !important;
+        height: auto;
+    }
+    .marketing-card-img{
+        width: 100%;
+        height: auto;
+        margin-bottom: 15px;
+    }
+}
+@media (max-width:1290px){
+    .marketing-cards{
+        width: 340px;
+        height: auto;
+    }
+    .marketing-card-img{
+        width: 340px;
+        height: auto;
+        margin-bottom: 15px;
+    }
+    
+}
+
+@media (max-width:375px){
+    .footer-logo img,.navigation-logo img{
+        width: 100px !important;
+    }
+    .main-hero-cont,
+    .product-card-row,
+    .product-h1 h1,
+    .costumer-section-cont,
+    .second-costumer-sec,
+    .contact-sp-details,
+    .marketing-cont,
+    footer{
+        padding: 60px 15px !important;
+    }
+    .sec-header{
+        padding: 0 !important;
+    }
+    .second-costumer-sec p{
+        padding-left: 0 !important;
+        margin-left: 0px !important;
+    }
+    .main-hero-cont h1,
+    .product-card-row h1,
+    .product-h1 h1,
+    .costumer-section-cont h1,
+    .second-costumer-sec h1,
+    .contact-sp-details h1,
+    .marketing-cont h1,
+    footer{
+        font-size: 23px !important;
+        line-height: normal;
+    }
+    .main-hero-cont label,
+    .product-card-row label,
+    .product-h1 label,
+    .costumer-section-cont label,
+    .second-costumer-sec label,
+    .contact-sp-details label,
+    .marketing-cont label,
+    footer{
+        font-size: 16px !important;
+        /* line-height: normal; */
+    }
+}
+

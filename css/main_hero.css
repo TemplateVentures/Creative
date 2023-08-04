@@ -1,0 +1,70 @@
+
+/* main-hero-cont */
+.main-hero-cont{
+    padding: 90px 100px;
+    padding-top: 100px !important;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.main-hero-details{
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+}
+.main-hero-details h1{
+    font-weight: 700;
+    color: #2F281E;
+    line-height: 50px;
+    font-size:43px;
+}
+.main-hero-details p{
+    color: #544837;
+    padding: 30px 0;
+}
+.main-hero-cont .main-hero-btn{
+    margin-top: 30px;
+    display: flex;
+}
+.main-hero-btn span{
+    padding: 15px 25px;
+    color: #FA9484;
+    border-radius: 5px;
+    text-decoration: underline;
+    margin-right: 20px;
+    cursor: pointer;
+
+}
+.main-hero-details .active-btn{
+    color: #fff;
+    background: #FA9484;
+    font-weight: 400;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+.main-hero-details .active-btn:hover{
+    background: #DC695B;
+}
+.watch-play{
+    display: flex;
+    align-items: center;
+    border: 2px solid transparent;
+}
+.watch-play:hover{
+    border: 2px solid #FA9484;
+}
+.watch-play ion-icon{
+    padding-right: 10px;
+}
+.main-hero-img{
+    max-width: 470px;
+    height: auto;
+    margin-left: 30px;
+}
+.main-hero-img img{
+    width: 100%;
+}
+/* main-hero-cont end*/

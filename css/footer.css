@@ -1,0 +1,71 @@
+/* footer */
+footer{
+    width: 100%;
+    height: auto;
+    padding: 90px 100px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1.5px solid #374951;
+}
+.quick-links,.legal-links,.footer-contact-form{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+.quick-links label,.legal-links label{
+    color: #374951;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+.quick-links a,.legal-links a{
+    color: #2F281E;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 5px 0;
+}
+.quick-links a:hover,.legal-links a:hover{
+    text-decoration: underline;
+    color: #FA9484;
+}
+.footer-contact-form{
+    max-width: 457px;
+    height: auto;
+}
+.footer-contact-form h3{
+    color: #374951;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    padding-bottom: 15px;
+}
+.footer-contact-form input{
+    width: 100%;
+    height: 60px;
+    border-radius: 5px;
+    border: 1px solid #374951;
+    background: #FFF;
+    outline-color: #FA9484;
+    padding: 0 20px;
+}
+.footer-contact-form span{
+    margin-top: 15px;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    background: #FA9484;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-contact-form span:hover{
+    background: #DC695B;
+    cursor: pointer;
+}
+/* footer end*/
+

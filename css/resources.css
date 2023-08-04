@@ -1,0 +1,60 @@
+/* marketing-cont */
+.marketing-cont{
+    width: 100%;
+    height: auto;
+    padding: 90px 100px;
+}
+.market-header{
+    width: 100%;
+}
+.market-header h1{
+    color: #173A56;
+    font-size: 43px;
+    font-style: normal;
+    font-weight: 700;
+}
+.market-header p{
+    color: #173A56;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+}
+.marketing-card-holder{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 90px 0;
+}
+.marketing-cards{
+    width: 340px;
+    height: auto;
+    margin: 5px 7px;
+}
+.marketing-card-img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+    /* background: #F1E7E5; */
+}
+.marketing-card-img img{
+    width: 100%;
+    /* max-height: 200px; */
+    /* object-fit: contain; */
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.marketing-cards small{
+    color: #173A56;
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+}
+.marketing-cards h4{
+    color: #173A56;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    padding-top: 15px;
+}
+/* marketing-cont end */

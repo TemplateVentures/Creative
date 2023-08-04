@@ -1,0 +1,113 @@
+/* costumer-section-cont */
+.costumer-section-cont{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 100px;
+}
+.costumer-details{
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+.costumer-details span{
+    padding-top: 15px;
+}
+.cost-header h1{
+    color: #173A56;
+    font-family: Poppins;
+    font-size: 43px;
+    font-style: normal;
+    font-weight: 700;
+}
+.cost-header p{
+    color: #544837;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+.costumer-details label{
+    color: #2F281E;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+}
+.costumer-details p{
+    color: #544837;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+.costumer-img{
+    width: 400px;
+    height: auto;
+}
+.costumer-img img{
+    width: 100%;
+}
+/* costumer-section-cont end*/
+
+
+
+/* second-costumer-sec */
+.second-costumer-sec{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 100px;
+}
+.sec-header{
+    margin-bottom: 20px;
+}
+.sec-costumer-img{
+    width: 400px;
+    height: auto;
+}
+.sec-costumer-img img{
+    width: 100%;
+}
+.second-cost-details{
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    margin-left: 40px;
+}
+.sec-cost-man{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+.sec-cost-man p{
+    padding-left: 10px;
+    max-width: 370px;
+    margin-left: 10px;
+}
+.sec-cost-man .checkbox{
+    width: 35px !important;
+    height: 35px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3px;
+    border-radius: 10px;
+    font-size: 30px;
+    color: #DC695B;
+    padding: 2px;
+    border: 1px solid #DC695B;
+    overflow: hidden;
+    margin: 10px 0;
+}
+.sec-cost-man span ion-icon{
+    border-radius: 5px;
+}
+/* second-costumer-sec end*/

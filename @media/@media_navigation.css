@@ -1,0 +1,30 @@
+@media (max-width:1147px){
+    .navigation{
+        padding: 0 80px !important;
+    }
+}
+@media (max-width:1082px){
+    .navigation{
+        padding: 0 60px !important;
+    }
+}
+@media (max-width:1065px){
+    .navigation{
+        padding: 0 30px !important;
+    }
+}
+@media (max-width:810px){
+    .navlink{
+        display: none !important;
+    }
+    .menu-bar{
+        display: flex !important;
+    }
+}
+
+@media (max-width:590px){
+    .singin-singup{
+        display: none;
+    }
+}
+
