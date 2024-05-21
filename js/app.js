@@ -1,3 +1,6 @@
+document.addEventListener('DOMContentLoaded', function () {  // Wow Animations
+  new WOW().init();
+
 let menuBar = document.getElementById('menu-bar');
     let navOverlay = document.getElementById('nav-overlay');
     let navlinkCont = document.getElementById('navlinkCont');
@@ -27,3 +30,5 @@ for (var i = 0; i < links.length; i++) {
     this.className += " nav-Active";
   });
 }
+
+});

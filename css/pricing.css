@@ -6,6 +6,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-top: 100px;
 }
 .conact-spr{
     width: 100%;

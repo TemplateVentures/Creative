@@ -58,6 +58,7 @@
     }
 }
 @media (max-width:481px){
+    
     .product-card-row{
         flex-direction: column;
     }

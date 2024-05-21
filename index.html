@@ -5,30 +5,31 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="css/style.css" rel="stylesheet">
-        <link rel="stylesheet" href="./css/navigation.css">
-        <link rel="stylesheet" href="./css/main_hero.css">
-        <link rel="stylesheet" href="./css/product.css">
-        <link rel="stylesheet" href="./css/costumer.css">
-        <link rel="stylesheet" href="./css/pricing.css">
-        <link rel="stylesheet" href="./css/resources.css">
-        <link rel="stylesheet" href="./css/footer.css">
+        <link rel="stylesheet" href="./css/navigation.min.css">
+        <link rel="stylesheet" href="./css/main_hero.min.css">
+        <link rel="stylesheet" href="./css/product.min.css">
+        <link rel="stylesheet" href="./css/costumer.min.css">
+        <link rel="stylesheet" href="./css/pricing.min.css">
+        <link rel="stylesheet" href="./css/resources.min.css">
+        <link rel="stylesheet" href="./css/footer.min.css">
+        <link rel="stylesheet" href="./css/animate.min.css">
     </head>
     <body>
 
         <div class="maincontainer">
             <div class="navigation">
                 <div class="navigation-logo">
-                    <img src="./img/logo.png" alt="logo" width="150px">
+                    <img class="wow fadeInUp" data-wow-delay="1000ms" src="./img/logo.png" alt="logo" width="150px">
                 </div>
                 <div class="naviagtion-link">
                     <div class="navlink" id="navlink">
-                        <li class="links nav-Active"><a href="#">Home</a></li>
-                        <li class="links "><a href="#product">Product</a></li>
-                        <li class="links"><a href="#costumer">Costumer</a></li>
-                        <li class="links"><a href="#pricing">Pricing</a></li>
-                        <li class="links"><a href="#resources">Resources</a></li>
+                        <li class="links nav-Active wow fadeInUp" data-wow-delay="1000ms"><a href="#">Home</a></li>
+                        <li class="links wow fadeInUp" data-wow-delay="1110ms"><a href="#product">Product</a></li>
+                        <li class="links wow fadeInUp" data-wow-delay="1220ms"><a href="#costumer">Costumer</a></li>
+                        <li class="links wow fadeInUp" data-wow-delay="1440ms"><a href="#pricing">Pricing</a></li>
+                        <li class="links wow fadeInUp" data-wow-delay="1880ms"><a href="#resources">Resources</a></li>
                     </div>
-                    <div class="singin-singup">
+                    <div class="singin-singup wow fadeInRight" data-wow-delay="2000ms">
                         <span>Sign In</span>
                         <span class="active">Sign Up</span>
                     </div>
@@ -60,7 +61,7 @@
 
             <!-- Main-hero -->
             <div class="main-hero-cont">
-                <div class="main-hero-details">
+                <div class="main-hero-details wow fadeInLeft" data-wow-duration="3000ms" data-wow-delay="2s">
                     <h1>The Design Thinking Superpowers</h1>
                     <p>
                         Discover your "<span style="color: #FA9484;">Design Thinking Superpowers</span>". Learn how to unleash creativity, empathy, ideation, prototyping, and iteration to conquer challenges and fuel innovation. Unlock your problem-solving potential today!
@@ -73,8 +74,7 @@
                         </span>
                     </div>
                 </div>
-                <div class="main-hero-img">
-                    <!-- <img src="https://themewagon.github.io/productly/v1.0.0/assets/img/hero/hero-img.png" alt=""> -->
+                <div class="main-hero-img wow fadeIn" data-wow-duration="3000ms" data-wow-delay="2s">
                     <img src="./img/hero-img.png" alt="">
                 </div>
             </div>
@@ -85,34 +85,34 @@
                 <div class="product-bg">
                     <img src="./img/Prodbg.png" alt="" width="100%">
                 </div>
-                <div class="product-h1">
+                <div class="product-h1 wow fadeInUp" data-wow-duration="2000ms">
                     <h1>We design tools to unveil your superpowers</h1>
                 </div>
 
                 <div class="product-card-row">
-                    <div class="product-card">
+                    <div class="product-card wow fadeInUp" data-wow-duration="1000ms" data-wow-delay=".5s">
                         <span><ion-icon name="extension-puzzle-outline"></ion-icon></span>
                         <label>Empathy Amplifier</label>
                         <p>Empower Design: Understand, Connect, Innovate.</p>
                     </div>
-                    <div class="product-card">
+                    <div class="product-card wow fadeInUp" data-wow-duration="1150ms" data-wow-delay=".7s">
                         <span class="p1"><ion-icon name="rocket-outline"></ion-icon></span>
                         <label>Idea Generator</label>
                         <p>Ideas Spark: Limitless Innovation Unleashed.</p>
                     </div>
-                    <div class="product-card">
+                    <div class="product-card wow fadeInUp" data-wow-duration="1200ms" data-wow-delay=".8s">
                         <span class="p2"><ion-icon name="trending-up-outline"></ion-icon></ion-icon></span>
                         <label>Prototyping Wizard</label>
                         <p>Refine, Iterate, Excel: Progress towards Perfection.</p>
                     </div>
-                    <div class="product-card">
+                    <div class="product-card wow fadeInUp" data-wow-duration="1250ms" data-wow-delay=".9s">
                         <span class="p3"><ion-icon name="color-palette-outline"></ion-icon></ion-icon></span>
                         <label>Iteration Enhancer</label>
                         <p>Evolve: Iterating Towards Creative Perfection.</p>
                     </div>
                 </div>
 
-                <span class="conact-us">Sign Up Now</span>
+                <span class="conact-us wow fadeInUp" data-wow-duration="1300ms" data-wow-delay="1s">Sign Up Now</span>
                 
             </div>
             <!-- Product end-->
@@ -120,25 +120,25 @@
             <!-- costumer-section -->
             <div class="costumer-section-cont" id="costumer">
                 <div class="costumer-details">
-                    <div class="cost-header">
+                    <div class="cost-header wow fadeInLeft" data-wow-delay="1000ms">
                         <h1>Design Professionals</h1>
                         <p>
                             With their expertise, they illuminate your vision, infusing creativity and innovation to craft exceptional solutions tailored to your unique needs.
                         </p>
                     </div>
-                    <span>
+                    <span class="wow fadeInLeft" data-wow-delay="1110ms">
                         <label>Expertise Unleashed</label>
                         <p>
                             A creative powerhouse, strategy mavericks, and innovation gurus who transform ideas into captivating realities, crafting blueprints for your success at every project.
                         </p>
                     </span>
-                    <span>
+                    <span class="wow fadeInLeft" data-wow-delay="1220ms">
                         <label>Tailored Solutions</label>
                         <p>
                             Custom creators, user-centric wizards, and experience experts. They craft exclusive designs, placing your audience at the heart of the process, enriching lives with seamless interactions.
                         </p>
                     </span>
-                    <span>
+                    <span class="wow fadeInLeft" data-wow-delay="1440ms">
                         <label>Impactful Collaborators</label>
                         <p>
                             Results-driven partners, efficiency architects, and champions of tomorrow. They align design with your business goals, streamline processes for maximum impact, and shape a better world through visionary ideas.
@@ -146,7 +146,7 @@
                     </span>
                 </div>
 
-                <div class="costumer-img">
+                <div class="costumer-img wow fadeInRight" data-wow-delay="1880ms">
                     <img src="./img/costumer-img.png" alt="">
                 </div>
 
@@ -154,11 +154,11 @@
 
 
             <div class="second-costumer-sec">
-                <div class="sec-costumer-img">
+                <div class="sec-costumer-img wow zoomIn" data-wow-delay="1500ms">
                     <img src="./img/manager.png" alt="">
                 </div>
 
-                <div class="second-cost-details">
+                <div class="second-cost-details wow fadeInRight" data-wow-delay="1600ms">
                     <div class="cost-header sec-header">
                         <h1>Product Managers</h1>
                         <p>
@@ -190,25 +190,25 @@
 
             <div class="costumer-section-cont">
                 <div class="costumer-details">
-                    <div class="cost-header">
+                    <div class="cost-header wow fadeInUp">
                         <h1>Marketers</h1>
                         <p>
                             A comprehensive hub for tools, tutorials, design, and innovation expertise unlocking your next user experience seamlessly.
                         </p>
                     </div>
-                    <span>
+                    <span class="wow fadeInUp" data-wow-delay="1100ms">
                         <label>Tools tutorials</label>
                         <p>
                             A consolidated platform for design, innovation, and expert guidance unlocking your creative potential to envision captivating user experiences effortlessly.
                         </p>
                     </span>
-                    <span>
+                    <span class="wow fadeInUp" data-wow-delay="1200ms">
                         <label>Accessory makers</label>
                         <p>
                             Crafting delightful experiences in casino gambling, sports betting, lottery, and bingo for pure enjoyment.
                         </p>
                     </span>
-                    <span>
+                    <span class="wow fadeInUp" data-wow-delay="1300ms">
                         <label>Alterationist</label>
                         <p>
                             Discover innovative ways to promote your business, driving growth without breaking the bank.
@@ -216,7 +216,7 @@
                     </span>
                 </div>
 
-                <div class="costumer-img">
+                <div class="costumer-img wow fadeInRight" data-wow-delay="1400ms">
                     <img src="./img/marketing.png" alt="">
                 </div>
 
@@ -226,12 +226,12 @@
             <!-- costumer-section end-->
 
             <!-- Contact Support -->
-            <div class="contact-support">
-                <div class="conact-spr">
+            <div class="contact-support" id="pricing">
+                <div class="conact-spr wow fadeInUp" data-wow-delay="1100ms">
                     <img src="./img/Prodbg.png" alt="" width="100%">
                 </div>
 
-                <div class="contact-sp-details" id="pricing">
+                <div class="contact-sp-details wow fadeInUp" data-wow-delay="1200ms" >
                     <h1>Need Support?</h1>
                     <p>Do you require some help for your project: Conception workshop,
                         prototyping, marketing strategy, landing page, Ux/UI?
@@ -243,7 +243,7 @@
 
 
             <!-- marketing strategies -->
-            <div class="marketing-cont" id="resources">
+            <div class="marketing-cont wow fadeInUp" data-wow-delay="1100ms" id="resources">
                 <div class="market-header">
                     <h1>Marketing Strategies</h1>
                     <p>Join 40,000+ other marketers and get proven strategies on email marketing</p>
@@ -252,7 +252,7 @@
                 <!-- marketing cards -->
                 <div class="marketing-card-holder">
 
-                    <div class="marketing-cards">
+                    <div class="marketing-cards wow bounceIn" data-wow-delay="1400ms">
                         <div class="marketing-card-img">
                             <img src="./resources/1.png" alt="">
                         </div>
@@ -260,7 +260,7 @@
                         <h4>Fostering Prosperity Through Positive Thinking</h4>
                     </div>
 
-                    <div class="marketing-cards">
+                    <div class="marketing-cards wow bounceIn" data-wow-delay="1800ms">
                         <div class="marketing-card-img">
                             <img src="./resources/2.png" alt="">
                         </div>
@@ -268,7 +268,7 @@
                         <h4>Motivation Paves the Way to Success</h4>
                     </div>
 
-                    <div class="marketing-cards">
+                    <div class="marketing-cards wow bounceIn" data-wow-delay="2200ms">
                         <div class="marketing-card-img">
                             <img src="./resources/3.png" alt="">
                         </div>
@@ -283,34 +283,34 @@
             <footer>
                 <div class="footer-cont">
                     <div class="footer-logo">
-                        <img src="./img/logo.png" alt="" width="150px">
+                        <img class="wow fadeInUp" data-wow-delay="1000ms" src="./img/logo.png" alt="main_logo" width="150px">
                     </div>
                     <div class="quick-links">
-                        <label>Quick Links</label>
-                        <a href="#">Home</a>
-                        <a href="#">About Us</a>
-                        <a href="#">Contact Us</a>
-                        <a href="#">FAQ</a>
+                        <label class="wow fadeInUp" data-wow-delay="1000ms">Quick Links</label>
+                        <a href="#" class="wow fadeInUp" data-wow-delay="1050ms">Home</a>
+                        <a href="#" class="wow fadeInUp" data-wow-delay="1100ms">About Us</a>
+                        <a href="#" class="wow fadeInUp" data-wow-delay="1150ms">Contact Us</a>
+                        <a href="#" class="wow fadeInUp" data-wow-delay="1200ms">FAQ</a>
                     </div>
                     <div class="legal-links">
-                        <label>Legal Links</label>
-                        <a href="#">Privacy | Policy</a>
-                        <a href="#">Disclaimer</a>
-                        <a href="#">Terms of Services</a>
-                        <a href="#">Financing</a>
+                        <label class="wow fadeInUp" data-wow-delay="1000ms">Legal Links</label>
+                        <a href="#" class="wow fadeInUp" data-wow-delay="1050ms">Privacy | Policy</a>
+                        <a href="#" class="wow fadeInUp" data-wow-delay="1100ms">Disclaimer</a>
+                        <a href="#" class="wow fadeInUp" data-wow-delay="1150ms">Terms of Services</a>
+                        <a href="#" class="wow fadeInUp" data-wow-delay="1200ms">Financing</a>
                     </div>
                     <div class="footer-contact-form">
-                        <h3>Be the first to get a new update</h3>
-                        <input type="text" placeholder="Email address...">
-                        <span>Subscribe</span>
+                        <h3 class="wow fadeInUp" data-wow-delay="1000ms">Be the first to get a new update</h3>
+                        <input class="wow fadeInUp" data-wow-delay="1050ms" type="text" placeholder="Email address...">
+                        <span class="wow fadeInUp" data-wow-delay="1100ms">Subscribe</span>
                     </div>
                 </div>
-                <div class="copyright">
-                    <small>&copy;Copyright CebuCoder | 2023</small>
+                <div class="copyright wow fadeInUp" data-wow-delay="1200ms">
+                    <small >&copy;Copyright CebuCoder | 2023</small>
                     <div class="footer-icon">
-                        <span><ion-icon name="logo-facebook"></ion-icon></span>
-                        <span><ion-icon name="logo-linkedin"></ion-icon></span>
-                        <span><ion-icon name="logo-twitter"></ion-icon></span>
+                        <span class="wow fadeInUp" data-wow-delay="1300ms"><ion-icon name="logo-facebook"></ion-icon></span>
+                        <span class="wow fadeInUp" data-wow-delay="1380ms"><ion-icon name="logo-linkedin"></ion-icon></span>
+                        <span class="wow fadeInUp" data-wow-delay="1760ms"><ion-icon name="logo-twitter"></ion-icon></span>
                     </div>
                     <small>Distributed By: Template Ventures</small>
                 </div>
@@ -321,11 +321,10 @@
     
     </body>
 
+    <script src="./js/wow.min.js"></script>
     <!-- icon -->
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 
     <script src="./js/app.js"></script>
-
-
 </html>

@@ -67,10 +67,21 @@
         padding: 0 10px;
     }
 }
+
+
+@media (max-width:493px){
+    .sec-cost-man{
+        display: flex;
+        flex-direction: column !important;
+        text-align: center;
+    }
+}
+
 @media (max-width:472px){
     .costumer-img,.sec-costumer-img{
         width: 300px !important;
     }
+    
     .cost-header h1{
         font-size: 26px !important;
     }
@@ -79,15 +90,13 @@
         line-height: normal;
     }
 }
-@media (max-width:493px){
-    .sec-cost-man{
-        display: flex;
-        flex-direction: column !important;
-    }
-}
 
 @media (max-width:375px){
     .costumer-img,.sec-costumer-img{
         width: 100% !important;
+    }
+    .sec-header {
+        margin-bottom: 20px;
+        text-align: center;
     }
 }
